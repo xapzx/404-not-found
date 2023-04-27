@@ -1,0 +1,16 @@
+:root {
+    --clr-bg: hsl(0, 0%, 100%);
+    --clr-text: hsl(0, 0%, 20%);
+
+    --ff-main-header: 'Inconsolata', monospace;
+    --ff-text: 'Space Mono', monospace;
+    --fs-mobile: 1.125rem;
+    --fs-desktop: 1.5rem
+}
+
+body {
+    background-color: var(--clr-bg);
+    color: var(--clr-text);
+    padding: 1.25rem 1.5rem;
+    font-family: var(--ff-text);
+}
